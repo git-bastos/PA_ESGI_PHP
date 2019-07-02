@@ -54,7 +54,7 @@ body{
     <h3>Production Environment</h3>
     <div id="main">
         <p class="info">You are currently on the EC2 instance which has the following ip adress :</p>
-        <p class="ip"><?php echo file_get_contents("http://checkip.dyn.com/"); ?></p>
+        <p class="ip"><?php echo file_get_contents("https://ipinfo.io/ip"); ?></p>
     </div>
 </body>
 </html>
