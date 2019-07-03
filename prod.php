@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Environnement de Production</title>
+    <title>PowerGreen</title>
     <link rel="stylesheet" type="text/css" href="reset.css" media="all"/>
 </head>
 <body>
@@ -51,7 +51,7 @@ body{
     color: #ef2727;
 }
 </style>
-    <h3>Production Environment</h3>
+    <h3>PowerGreen Production Environment</h3>
     <div id="main">
         <p class="info">You are currently on the EC2 instance which has the following ip adress :</p>
         <p class="ip"><?php echo file_get_contents("https://ipinfo.io/ip"); ?></p>
